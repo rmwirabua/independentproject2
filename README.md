@@ -3,6 +3,9 @@ Independent Project week 2
 ---
 # Project description
 A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+
+# Project link
+https://rmwirabua.github.io/independentproject2/
 ---
 # Author Of the Project
 Richard Gitonga
