@@ -19,7 +19,7 @@ function user_Action(){
 					return false;
 				}
 			} else {
-				alert("Date of format format should be dd/mm/yyyy" + user_form.user_DOB.value);
+				alert("Date of format format should be dd/mm/yyyy");
 				form.dob.focus();
 				return false;
 			}
