@@ -11,26 +11,27 @@
      <p>
         Akan name calculator: This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name for both male and female users.
        <hr>
-     </p>
-     <h4>The calculator</h4>
-     <p> Please click below enter your date of birth to know you Akan Name</p>
-
-    <form name="user_form"class="form-inline">
-      <div class="form-group">
-        <label>DOB:</label>
-        <input id="user_DOB" name="user_DOB" type="text"required placeholder="DD/MM/YYYY">
+      </p>
+       <h4>The calculator</h4>
+       <p> Please click below enter your date of birth to know you Akan Name</p>
+      <div class ="right-container">
+       <form name="user_form"class="form-inline">
+           <div class="form-group">
+              <label>DOB:</label>
+              <input id="user_DOB" name="user_DOB" type="text"required placeholder="DD/MM/YYYY">
+            </div>
+            <div>
+              <label>Gender:</label>
+              <select class="form-control" id="gender" name="gender">
+              <option>Male</option>
+              <option>Female</option>
+              </select>
+            </div>
+           <div>
+              <input id="submit" type="submit" value="Submit" onclick="return user_Action()">
+           </div>
+         </form>
       </div>
-      <div>
-          <label>Gender:</label>
-          <select class="form-control" id="gender" name="gender">
-      <option>Male</option>
-      <option>Female</option>
-      </select>
-      </div>
-        <div>
-        <input id="submit" type="submit" value="Submit" onclick="return user_Action()">
-        </div>
-      </form>
 
       <hr>
       ©2021 
