@@ -1,0 +1,26 @@
+p{
+    color: darkblue;
+}
+h1{
+    color: green;  
+}
+h4{
+    color: chartreuse;
+}
+img{
+    width: 200px;
+    float: left;
+    height: 200px;
+}
+.focus{
+    color: maroon;
+    font-style: italic;
+}
+.unfocus{
+    color: midnightblue;
+    font-style: italic;
+}
+
+ul{
+    font-style: italic;
+}
