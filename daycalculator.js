@@ -66,7 +66,7 @@ function user_Action(){
         result = femaleNames[wholeNumber]
     }else{
     }
-    alert('Your Akan name is :' + result)
+    alert('Your Akan name is : ' + result + " have a nice day!")
     return true;
 }
 }
