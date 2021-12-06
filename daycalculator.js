@@ -1,6 +1,3 @@
-const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
 function user_Action(){
     document.user_form.action = "index.html";
     values_val= /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/; //expression to validate data entered
@@ -58,12 +55,15 @@ function user_Action(){
     const wholeNumber = calculationResults.toPrecision(1);
     var result;
 
+    const names_males = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    const names_females = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
     
     if (gender == "Male"){
-        result = maleNames[wholeNumber]
+        result = names_males[wholeNumber]
         
     }else if (gender == "Female"){
-        result = femaleNames[wholeNumber]
+        result = names_females[wholeNumber]
     }else{
     }
     alert('Your Akan name is : ' + result + " have a nice day!")
