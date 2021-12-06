@@ -57,6 +57,8 @@ function user_Action(){
     var calculationResults = (birthCentury + birthYear + birthMonth + enterDate) % 7
     const wholeNumber = calculationResults.toPrecision(1);
     var result;
+
+    
     if (gender == "Male"){
         result = maleNames[wholeNumber]
         
