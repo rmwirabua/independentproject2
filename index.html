@@ -14,14 +14,14 @@
       </p>
        <h4>The calculator</h4>
        <p> Please enter your date of birth and gender below to know you Akan Name</p>
-      <div class ="left-container">
-       <form name="user_form"class="form-inline">
+      <div class ="right-container">
+       <form name ="user_form"class="form-inline">
            <div class="form-group">
               <label>DOB:</label>
               <input id="user_DOB" name="user_DOB" type="text"required placeholder="DD/MM/YYYY">
             </div>
             <div>
-              <label>Select Your Gender:</label>
+              <label>Gender:</label>
               <select class="form-control" id="gender" name="gender">
               <option>Male</option>
               <option>Female</option>
@@ -30,10 +30,12 @@
            <div>
               <input id="submit" type="submit" value="Submit" onclick="return user_Action()">
            </div>
+          </div>
+          <script type="text/javascript" src="daycalculator.js"></script>
+        </div>
          </form>
       </div>
-
-      <hr>
+      <br>
       ©2021 
   </body>
 </html>
