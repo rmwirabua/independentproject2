@@ -20,6 +20,23 @@
       <input id="born" class="form-control" type="date">
     </div>
 
+    <form name="user_form"class="form-inline">
+      <div class="form-group">
+        <label>DOB:</label>
+        <input id="user_DOB" name="user_DOB" type="text"required placeholder="DD/MM/YYYY">
+      </div>
+      <div>
+          <label>Gender:</label>
+          <select class="form-control" id="gender" name="gender">
+      <option>Male</option>
+      <option>Female</option>
+      </select>
+      </div>
+        <div>
+        <input id="submit" type="submit" value="Submit" onclick="return user_Action()">
+        </div>
+      </form>
+
       <hr>
       ©2021 
   </body>
