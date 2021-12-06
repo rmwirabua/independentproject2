@@ -37,7 +37,6 @@ function user_Action(){
         return(26 * (MM + 1) / 10);
     }
 
-    // this function splits the century of that year entered
     function centuryFromYear(year) {
         return Math.ceil(year/100)
     }
